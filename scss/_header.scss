@@ -1,0 +1,136 @@
+
+/*ESTILOS PAGINA INDEX*/
+
+.logochat{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+    display: flex;
+    width: 4%;
+    }
+
+.logoreducido{
+    width: 50%;
+    height: 50%;
+}
+
+.parrafoheader2{
+    color: #fff; 
+    font-size: 30px; 
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 50px;
+ }
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logoempresa2{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulosecundario{
+    color: #fff; 
+    font-weight: lighter; 
+    padding-right: 20px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;   
+}
+.comofunciona{
+    color: #1b2a4a; 
+    font-weight: bolder; 
+    padding-right: 50px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textocomofunciona{
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    padding-left: 10%;
+    }  
+
+.parrafosection{
+        padding: 30px 30px;
+        color: #1b2a4a; 
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin: auto;
+        width: 100%;    
+}
+
+.parrafoonboarding{ 
+        padding: 30px;
+        padding-bottom: 50px;
+         color: #1b2a4a; 
+         font-size: 20px;
+         font-weight: normal;
+         font-family: 'Roboto', sans-serif;
+         margin-top: 50px;
+         margin-bottom: 50px;
+         margin: auto;
+         width: 75%;       
+}
+
+
+/*Nesting header-index*/
+
+.headerhome{
+    background-color: #1b2a4a; 
+    nav{
+        padding: 10px;
+        ul{
+            li{
+                color: #fff;     
+                font-size: 20px; 
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
+/*FIN ESTILOS PAGINA INDEX*/
+
+
+
+/*ESTILOS PAGINA NOSOTROS*/
+
+
+.logosecundario{  
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .logoempresa2{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    
+    .secundarionosotros{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+/*FIN ESTILOS PAGINA NOSOTROS*/
+
+
+
+

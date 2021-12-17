@@ -1,0 +1,480 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 580px) {
+  .footer {
+    display: none;
+  }
+
+  .logosecundario {
+    display: none;
+  }
+}
+/*General*/
+.bg-ale {
+  background-color: #1d5597;
+}
+
+body {
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*ESTILOS PAGINA INDEX*/
+.logochat {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+  display: flex;
+  width: 4%;
+}
+
+.logoreducido {
+  width: 50%;
+  height: 50%;
+}
+
+.parrafoheader2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logoempresa2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulosecundario {
+  color: #fff;
+  font-weight: lighter;
+  padding-right: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.comofunciona {
+  color: #1b2a4a;
+  font-weight: bolder;
+  padding-right: 50px;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.textocomofunciona {
+  display: flex;
+  justify-content: center;
+  padding-top: 0%;
+  padding-left: 10%;
+}
+
+.parrafosection {
+  padding: 30px 30px;
+  color: #1b2a4a;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: auto;
+  width: 100%;
+}
+
+.parrafoonboarding {
+  padding: 30px;
+  padding-bottom: 50px;
+  color: #1b2a4a;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: auto;
+  width: 75%;
+}
+
+/*Nesting header-index*/
+.headerhome {
+  background-color: #1b2a4a;
+}
+.headerhome nav {
+  padding: 10px;
+}
+.headerhome nav ul li {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+/*FIN ESTILOS PAGINA INDEX*/
+/*ESTILOS PAGINA NOSOTROS*/
+.logosecundario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoempresa2 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secundarionosotros {
+  display: flex;
+  justify-content: center;
+}
+
+/*FIN ESTILOS PAGINA NOSOTROS*/
+.fotoscontainer {
+  display: flex;
+  justify-content: left;
+}
+
+.gridfotos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tamañoimagen {
+  width: 400px;
+  height: 250px;
+  transition: all 1.5s;
+}
+
+.tamañoimagen:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+.textcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.textlocation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: #1b2a4a;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+p {
+  color: #1b2a4a;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.descripciones {
+  width: 400px;
+  padding-top: 50px;
+}
+
+.tamaño {
+  font-size: 25px;
+}
+
+footer ul li {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/*Nesting Footer*/
+.footercontainer {
+  margin-top: 50px;
+  padding: 10px 0px;
+  background-color: #1d5597;
+  display: flex;
+  justify-content: space-around;
+}
+.footercontainer .footeritems {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.footercontainer .footeritems .redessociales {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridcontainernosotros {
+  padding-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "section-uno section-uno" "section-two section-two" "section-side section-side";
+}
+
+.Item1 {
+  grid-area: section-uno;
+}
+
+.parrafoonboardingnosotros {
+  background-color: #1d5597;
+  padding: 30px 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: auto;
+}
+
+.Item2 {
+  grid-area: section-two;
+}
+
+.alingimagenes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Imagenesclientes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 10%;
+  height: 10%;
+}
+
+.Imagenesclientes:hover {
+  transform: scale(1.3);
+}
+
+.Item3 {
+  grid-area: section-side;
+}
+
+.Imagenescertificadas {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 10%;
+  height: 5%;
+}
+
+.Imagenescertificadas:hover {
+  transform: scale(1.3);
+}
+
+.alingimagenes2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h4 {
+  color: #1b2a4a;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+}
+
+.imagenusers {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+}
+
+.cajacentral {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.objetcontainer {
+  border: 3px solid #1d5597;
+  border-radius: 10px;
+  width: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.objet1 {
+  display: flex;
+  justify-content: center;
+}
+
+.objet2 {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 5px;
+}
+
+.objet3 {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* ESTILOS LOGIN*/
+.boxfoto {
+  display: flex;
+  justify-content: center;
+}
+
+.userbox {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.screen {
+  position: relative;
+  height: 100%;
+  width: 360px;
+  border: 3px solid #1d5597;
+  border-radius: 5px;
+}
+
+.screen__content {
+  z-index: 1;
+  position: relative;
+  height: 50%;
+}
+
+.screen__background__shape1 {
+  height: 520px;
+  width: 520px;
+  background: #1d5597;
+  top: -50px;
+  right: 120px;
+  border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+  height: 220px;
+  width: 220px;
+  background: #1d5597;
+  top: -172px;
+  right: 0;
+  border-radius: 32px;
+}
+
+.screen__background__shape3 {
+  height: 540px;
+  width: 190px;
+  background: linear-gradient(270deg, #1d5597, #1d5597);
+  top: -24px;
+  right: 0;
+  border-radius: 32px;
+}
+
+.screen__background__shape4 {
+  height: 400px;
+  width: 200px;
+  background: #1d5597;
+  top: 420px;
+  right: 50px;
+  border-radius: 60px;
+}
+
+.login {
+  width: 300px;
+  padding: 30px;
+  padding-top: 50px;
+}
+
+.login__field {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.login__input {
+  border: none;
+  border-bottom: 2px solid #D1D1D4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  transition: 0.2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #1d5597;
+}
+
+.login__submit {
+  background: #1d5597;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #D4D3E8;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #1d5597;
+  box-shadow: 0px 2px 2px #1d5597;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: #1d5597;
+  outline: none;
+}
+
+.button__text {
+  color: #D1D1D4;
+}
+
+/*# sourceMappingURL=style.css.map */

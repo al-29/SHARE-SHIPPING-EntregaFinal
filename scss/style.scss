@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+@media only screen and (max-width: 580px){ 
+    .footer{
+        display: none;               
+    }  
+    .logosecundario{
+        display: none;
+    } 
+}
+
+/*General*/
+.bg-ale{
+    background-color: #1d5597;
+}
+
+body{
+  background-color: #fff;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+
+
+@import "header";
+@import "section1";
+@import "footer";
+@import "estilosnosotros";
+@import "estilosmiperfil"
+
+
+
+
+
+
+
