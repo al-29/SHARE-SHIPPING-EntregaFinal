@@ -6,14 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 
-@media only screen and (max-width: 580px){ 
-    .footer{
-        display: none;               
-    }  
-    .logosecundario{
-        display: none;
-    } 
-}
 
 /*General*/
 .bg-ale{
@@ -32,11 +24,84 @@ body{
 @import "section1";
 @import "footer";
 @import "estilosnosotros";
-@import "estilosmiperfil"
+@import "estilosmiperfil";
+@import"estilosservicios";
+@import"estiloscontacto";
+
+
+
+/*Medidas responsive index*/
+
+@media only screen and (max-width: 480px){ 
+
+.footercontainer{
+    padding-top: 2%;
+    background-color: #1d5597;    
+}
+.footeritems{
+    display: flex;
+    justify-content:center;
+}
+.redessociales{            
+    width: 9%;
+    padding-left: 1%;
+    padding-right: 1%;      
+}
 
 
 
 
+.email{
+     display: none;
+    }   
+   
+    .logosecundario{
+        width: 250%;
+    }
+    
+    .parrafoheader2{
+        display: none;
+    }
 
+    .logosecundario{
+        display: none;
+    }    
+}
+
+
+/*Medidas responsive contacto*/
+@media only screen and (max-width: 480px){ 
+    .parrafosection2{
+     flex-direction: column;
+     padding-bottom: 2%;
+    }
+     
+    iframe{
+        flex-direction: column;
+        height: 90%;
+        width: 100%;
+   }   
+}
+
+/*Medidas responsive nosotros*/
+@media only screen and (max-width: 480px){ 
+    .videowidth{
+    padding: 1%;
+    width: 100%;
+    }  
+
+    .alingimagenes{        
+        align-items: center;
+        width: 100%;    }
+        
+    
+    .alingimagenes2{
+        
+        align-items: center;
+        width: 100%;
+        padding-bottom: 20%;
+    }
+    
+}
 
 

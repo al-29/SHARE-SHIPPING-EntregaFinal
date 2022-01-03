@@ -1,36 +1,51 @@
 
 
 footer{
-    ul{
-        li{
+     ul{ 
+         li{
    color:  #fff;    
-   font-size: 20px; 
+   font-size: 90%; 
    font-family: 'Roboto', sans-serif;
    font-weight: normal;
-
-        }
+           }
     }
+    
 }
 
-/*Nesting Footer*/ 
+
+
+
+
+
+
+
 
 .footercontainer{
-    margin-top: 50px;
-    padding: 10px 0px;
+    margin-top: 10%;   
+    margin-bottom: 0%;
+    padding-top: 0.5%;
     background-color: #1d5597;
     display: flex;
-   justify-content: space-around;
-    .footeritems{
-            width: 60%;
-            list-style: none;
-            display: flex;
-            justify-content: space-around;
-        .redessociales{
-            width: 20px;
-            height: 20px;
-            display: flex;
-            justify-content: space-between;
-
-        }
-    }
+    justify-content: start;
 }
+
+.footeritems{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+ 
+.redessociales{            
+            width: 3%;
+            height: 100%;    
+            padding-left: 0.50%;   
+            padding-right: 0.5%;     
+    }
+
+.email{
+    padding-left: 0.5%;
+    font-size: 110%; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}    
+    

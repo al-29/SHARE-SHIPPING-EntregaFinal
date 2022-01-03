@@ -1,11 +1,19 @@
 {
   "name": "4ta-entrega-pagina-web",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-29/WEB-SHARESHIPPING.git"
+  },
+  "bugs": {
+    "url": "https://github.com/al-29/WEB-SHARESHIPPING/issues"
+  },
+  "homepage": "https://github.com/al-29/WEB-SHARESHIPPING#readme",
+  "description": ""
 }

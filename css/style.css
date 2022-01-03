@@ -5,15 +5,6 @@
   padding: 0;
 }
 
-@media only screen and (max-width: 580px) {
-  .footer {
-    display: none;
-  }
-
-  .logosecundario {
-    display: none;
-  }
-}
 /*General*/
 .bg-ale {
   background-color: #1d5597;
@@ -26,339 +17,270 @@ body {
   background-attachment: fixed;
 }
 
-/*ESTILOS PAGINA INDEX*/
+.headerhome {
+  background-color: #1b2a4a;
+}
+.headerhome .logosecundario {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.headerhome .logosecundario .logoempresa2 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulopage {
+  font-size: large;
+  margin: 1% 1%;
+}
+
 .logochat {
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 1%;
+  bottom: 1%;
   z-index: 1;
   display: flex;
   width: 4%;
 }
 
-.logoreducido {
-  width: 50%;
-  height: 50%;
-}
-
 .parrafoheader2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 250%;
   font-weight: lighter;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 1%;
 }
 
-.logo {
+.textocomofunciona {
+  background-color: #1b2a4a;
   display: flex;
   justify-content: center;
+  padding-top: 0.2%;
+  padding-left: 1%;
+}
+.textocomofunciona .comofunciona {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 180%;
+  font-family: "Roboto", sans-serif;
 }
 
-.logoempresa2 {
-  width: 25%;
+.contenedorlogoreducido {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.titulosecundario {
-  color: #fff;
-  font-weight: lighter;
-  padding-right: 20px;
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-family: "Roboto", sans-serif;
+.contenedorlogoreducido .logoreducido {
+  width: 50%;
+  margin-top: 30%;
+  margin-bottom: 12%;
 }
 
-.comofunciona {
-  color: #1b2a4a;
-  font-weight: bolder;
-  padding-right: 50px;
-  font-size: 40px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: "Roboto", sans-serif;
-}
-
-.textocomofunciona {
+.contenedorparrafosection {
   display: flex;
   justify-content: center;
-  padding-top: 0%;
-  padding-left: 10%;
+  align-items: center;
 }
-
-.parrafosection {
-  padding: 30px 30px;
+.contenedorparrafosection .parrafosection {
+  padding: 10% 10%;
   color: #1b2a4a;
-  font-size: 20px;
+  font-size: 125%;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
-  margin-top: 50px;
-  margin-bottom: 50px;
   margin: auto;
   width: 100%;
 }
 
 .parrafoonboarding {
-  padding: 30px;
-  padding-bottom: 50px;
+  padding: 10% 5%;
   color: #1b2a4a;
-  font-size: 20px;
+  font-size: 125%;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
-  margin-top: 50px;
-  margin-bottom: 50px;
   margin: auto;
   width: 75%;
 }
 
-/*Nesting header-index*/
-.headerhome {
+.carousel-control-next-icon {
   background-color: #1b2a4a;
 }
-.headerhome nav {
-  padding: 10px;
+
+.carousel-control-prev-icon {
+  background-color: #1b2a4a;
 }
-.headerhome nav ul li {
-  color: #fff;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
+
+.nav-item {
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
-/*FIN ESTILOS PAGINA INDEX*/
-/*ESTILOS PAGINA NOSOTROS*/
-.logosecundario {
-  display: flex;
-  justify-content: space-between;
-}
-
-.logoempresa2 {
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.secundarionosotros {
-  display: flex;
-  justify-content: center;
-}
-
-/*FIN ESTILOS PAGINA NOSOTROS*/
 .fotoscontainer {
   display: flex;
   justify-content: left;
 }
-
-.gridfotos {
+.fotoscontainer .gridfotos {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: auto;
 }
-
-.tamañoimagen {
+.fotoscontainer .gridfotos .tamañoimagen {
   width: 400px;
   height: 250px;
   transition: all 1.5s;
 }
-
-.tamañoimagen:hover {
+.fotoscontainer .gridfotos .tamañoimagen:hover {
   transform: scale(1.2) rotate(360deg);
 }
 
 .textcontainer {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
-
-.textlocation {
+.textcontainer .textlocation {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.textcontainer .textlocation p {
+  color: #1b2a4a;
+  font-font-weight: normal;
+  font-font-family: "Roboto", sans-serif;
+  font-size: 120%;
+}
 
 h3 {
   color: #1b2a4a;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-p {
-  color: #1b2a4a;
-  font-weight: normal;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-font-weight: bold;
+  font-font-size: 30px;
+  font-font-family: "Roboto", sans-serif;
+  font-padding-left: 20px;
+  font-padding-top: 20px;
 }
 
 .descripciones {
   width: 400px;
   padding-top: 50px;
 }
-
-.tamaño {
+.descripciones .tamaño {
   font-size: 25px;
 }
 
 footer ul li {
   color: #fff;
-  font-size: 20px;
+  font-size: 90%;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
 
-/*Nesting Footer*/
 .footercontainer {
-  margin-top: 50px;
-  padding: 10px 0px;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  padding-top: 0.5%;
   background-color: #1d5597;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
 }
-.footercontainer .footeritems {
-  width: 60%;
+
+.footeritems {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
 }
-.footercontainer .footeritems .redessociales {
-  width: 20px;
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
+
+.redessociales {
+  width: 3%;
+  height: 100%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.email {
+  padding-left: 0.5%;
+  font-size: 110%;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
 }
 
 .gridcontainernosotros {
-  padding-top: 20px;
+  padding-top: 3%;
   display: grid;
-  gap: 10px;
+  gap: 5%;
   grid-template-areas: "section-uno section-uno" "section-two section-two" "section-side section-side";
 }
-
-.Item1 {
+.gridcontainernosotros .Item1 {
   grid-area: section-uno;
 }
-
-.parrafoonboardingnosotros {
-  background-color: #1d5597;
-  padding: 30px 30px;
-  color: #fff;
-  font-size: 20px;
+.gridcontainernosotros .Item1 .parrafoonboardingnosotros {
+  padding: 5% 5%;
+  color: #1b2a4a;
+  font-size: 125%;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin: auto;
 }
 
 .Item2 {
   grid-area: section-two;
 }
-
-.alingimagenes {
+.Item2 .alingimagenes {
   display: flex;
   justify-content: space-around;
 }
-
-.Imagenesclientes {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.Item2 .alingimagenes .Imagenesclientes {
+  padding-top: 2%;
+  padding-bottom: 2%;
   width: 10%;
   height: 10%;
 }
-
-.Imagenesclientes:hover {
+.Item2 .alingimagenes .Imagenesclientes:hover {
   transform: scale(1.3);
 }
 
 .Item3 {
   grid-area: section-side;
 }
-
-.Imagenescertificadas {
+.Item3 .alingimagenes2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Item3 .alingimagenes2 .Imagenescertificadas {
   padding-top: 50px;
   padding-bottom: 50px;
   width: 10%;
   height: 5%;
 }
-
-.Imagenescertificadas:hover {
+.Item3 .alingimagenes2 .Imagenescertificadas:hover {
   transform: scale(1.3);
 }
 
-.alingimagenes2 {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-h4 {
+.parrafoonboardingnosotros2 {
+  padding: 1% 5%;
   color: #1b2a4a;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 125%;
+  font-weight: normal;
   font-family: "Roboto", sans-serif;
-  padding-left: 20px;
 }
 
-.imagenusers {
-  width: 200px;
-  height: 200px;
-  padding: 30px;
+.videowidth {
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
-.cajacentral {
-  display: flex;
-  justify-content: center;
-  padding: 100px;
-}
-
-.objetcontainer {
-  border: 3px solid #1d5597;
-  border-radius: 10px;
-  width: 250px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-}
-
-.objet1 {
-  display: flex;
-  justify-content: center;
-}
-
-.objet2 {
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  padding: 5px;
-}
-
-.objet3 {
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  margin-top: 10px;
-  padding: 5px;
-}
-
-/* ESTILOS LOGIN*/
 .boxfoto {
   display: flex;
   justify-content: center;
 }
-
-.userbox {
-  width: 200px;
-  height: 200px;
+.boxfoto .userbox {
+  width: 50%;
+  height: 55%;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 20%;
 }
 
 .container {
@@ -368,16 +290,14 @@ h4 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-.screen {
+.container .screen {
   position: relative;
   height: 100%;
   width: 360px;
   border: 3px solid #1d5597;
   border-radius: 5px;
 }
-
-.screen__content {
+.container .screen .screen__content {
   z-index: 1;
   position: relative;
   height: 50%;
@@ -475,6 +395,157 @@ h4 {
 
 .button__text {
   color: #D1D1D4;
+}
+
+.fotoscontainer2 {
+  display: flex;
+  justify-content: left;
+  padding-top: 5%;
+}
+.fotoscontainer2 .gridfotos2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fotoscontainer2 .gridfotos2 .tamañoimagen2 {
+  width: 10%;
+  height: 100%;
+  transition: all 1.5s;
+}
+.fotoscontainer2 .gridfotos2 .tamañoimagen2:hover {
+  transform: scale(1.2);
+}
+
+.textcontainer2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.textcontainer2 .textlocation2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.textcontainer2 .textlocation2 p {
+  color: #1b2a4a;
+  font-font-weight: normal;
+  font-font-family: "Roboto", sans-serif;
+  font-size: 120%;
+}
+
+.descripciones2 {
+  width: 400px;
+  padding-top: 10px;
+}
+.descripciones2 .tamaño {
+  font-size: 25px;
+}
+
+.containergeneral {
+  padding-top: 2%;
+}
+.containergeneral .container1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.contenedorparrafosection2 {
+  display: flex;
+  text-align: right;
+  width: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.contenedorparrafosection2 .parrafosection2 {
+  display: flex;
+  justify-content: right;
+  color: #1b2a4a;
+  font-size: 105%;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  width: 100%;
+}
+.contenedorparrafosection2 .parrafosection2 .row {
+  width: 50%;
+}
+
+.container2 {
+  padding-top: 1%;
+  margin: 3% 3%;
+  font-family: "Roboto", sans-serif;
+}
+
+.videowidth2 {
+  padding-right: 30%;
+}
+
+/*Medidas responsive index*/
+@media only screen and (max-width: 480px) {
+  .footercontainer {
+    padding-top: 2%;
+    background-color: #1d5597;
+  }
+
+  .footeritems {
+    display: flex;
+    justify-content: center;
+  }
+
+  .redessociales {
+    width: 9%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .logosecundario {
+    width: 250%;
+  }
+
+  .parrafoheader2 {
+    display: none;
+  }
+
+  .logosecundario {
+    display: none;
+  }
+}
+/*Medidas responsive contacto*/
+@media only screen and (max-width: 480px) {
+  .parrafosection2 {
+    flex-direction: column;
+    padding-bottom: 2%;
+  }
+
+  iframe {
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+  }
+}
+/*Medidas responsive nosotros*/
+@media only screen and (max-width: 480px) {
+  .videowidth {
+    padding: 1%;
+    width: 100%;
+  }
+
+  .alingimagenes {
+    align-items: center;
+    width: 100%;
+  }
+
+  .alingimagenes2 {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

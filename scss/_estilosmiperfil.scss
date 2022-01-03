@@ -1,71 +1,15 @@
 
-h4{
-    color: #1b2a4a;
-    font-weight: bold;
-    font-size: 20px; 
-    font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-}
-
-.imagenusers{
-    width: 200px;
-    height: 200px;
-   padding: 30px;
-}
-
-
-.cajacentral{
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-}
-
-
-.objetcontainer{
-    border: 3px solid #1d5597;
-    border-radius: 10px;
-    width: 250px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
-
-.objet1{
-    display: flex;
-    justify-content: center;
-}
-
-.objet2{
-display: flex;
-justify-content: center;
-background-color: grey;
-padding: 5px;
-
-}
-
-.objet3{
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-    margin-top: 10px;
-    padding: 5px;
-    }
-
-/* ESTILOS LOGIN*/
 .boxfoto{
     display: flex;
     justify-content: center;
-}
-
-
     .userbox{
-         width: 200px;
-         height: 200px;
-         display: flex;
-         justify-content: center;
-         padding-top: 20px;
-     }
+        width: 50%;
+        height: 55%;
+        display: flex;
+        justify-content: center;
+        padding-top: 20%;
+    }
+}  
     
     .container {
         display: flex;
@@ -73,25 +17,21 @@ padding: 5px;
         justify-content: center;
        padding-top: 50px;
        padding-bottom: 50px;
-    }
-    
-    .screen {	
-      		
+       .screen {      		
         position: relative;	
         height: 100%;
         width: 360px;
         border: 3px solid #1d5597;
-        border-radius: 5px;	
-        
+        border-radius: 5px;
+        .screen__content {
+            z-index: 1;
+            position: relative;
+            height: 50%;
+        }	       
     }
-    
-    .screen__content {
-        z-index: 1;
-        position: relative;
-        height: 50%;
-    }
- 
-    
+}  
+     
+     
     .screen__background__shape1 {
         height: 520px;
         width: 520px;

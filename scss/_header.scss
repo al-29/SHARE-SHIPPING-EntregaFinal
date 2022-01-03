@@ -1,136 +1,101 @@
 
-/*ESTILOS PAGINA INDEX*/
 
-.logochat{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 1;
-    display: flex;
-    width: 4%;
+.headerhome{
+    background-color: #1b2a4a; 
+    .logosecundario{  
+        color: #fff; 
+        display: flex;
+        justify-content: space-between;
+        .logoempresa2{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;                      
+         }
+       }
     }
 
-.logoreducido{
-    width: 50%;
-    height: 50%;
+.titulopage{
+    font-size: large;
+    margin: 1% 1%;
 }
 
+ 
+.logochat{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    z-index: 1;
+    display: flex;
+    width: 4%;    
+    }
 .parrafoheader2{
-    color: #fff; 
-    font-size: 30px; 
-    font-weight: lighter;
-    text-align: center;
-    padding-bottom: 50px;
- }
+        color: #fff; 
+        font-size: 250%; 
+        font-weight: lighter;
+        text-align: center;
+        padding-bottom: 1%;
+     }
 
-.logo{
+
+
+.textocomofunciona{
+    background-color: #1b2a4a; 
     display: flex;
     justify-content: center;
-}
-
-.logoempresa2{
-    width: 25%;
+    padding-top: 0.2%;
+    padding-left: 1%;
+    .comofunciona{      
+        color: #fff;   
+        font-weight: lighter; 
+        font-size: 180%;
+        font-family: 'Roboto', sans-serif;
+    }
+}  
+.contenedorlogoreducido{
     display: flex;
     justify-content: center;
     align-items: center;
+    .logoreducido{
+        width: 50%;
+        margin-top: 30%;
+        margin-bottom: 12%;
+    } 
 }
 
-.titulosecundario{
-    color: #fff; 
-    font-weight: lighter; 
-    padding-right: 20px;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;   
-}
-.comofunciona{
-    color: #1b2a4a; 
-    font-weight: bolder; 
-    padding-right: 50px;
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.textocomofunciona{
+.contenedorparrafosection{
     display: flex;
     justify-content: center;
-    padding-top: 0%;
-    padding-left: 10%;
-    }  
-
-.parrafosection{
-        padding: 30px 30px;
+    align-items: center;
+    .parrafosection{
+        padding: 10% 10%;
         color: #1b2a4a; 
-        font-size: 20px;
+        font-size: 125%;
         font-weight: normal;
         font-family: 'Roboto', sans-serif;
-        margin-top: 50px;
-        margin-bottom: 50px;
         margin: auto;
         width: 100%;    
 }
+}
 
 .parrafoonboarding{ 
-        padding: 30px;
-        padding-bottom: 50px;
+        padding: 10% 5%;
          color: #1b2a4a; 
-         font-size: 20px;
+         font-size: 125%;
          font-weight: normal;
          font-family: 'Roboto', sans-serif;
-         margin-top: 50px;
-         margin-bottom: 50px;
          margin: auto;
          width: 75%;       
 }
 
-
-/*Nesting header-index*/
-
-.headerhome{
+.carousel-control-next-icon{
     background-color: #1b2a4a; 
-    nav{
-        padding: 10px;
-        ul{
-            li{
-                color: #fff;     
-                font-size: 20px; 
-                font-family: 'Roboto', sans-serif;
-                font-weight: bold;
-
-            }
-        }
     }
+.carousel-control-prev-icon{
+    background-color:#1b2a4a; 
 }
-/*FIN ESTILOS PAGINA INDEX*/
-
-
-
-/*ESTILOS PAGINA NOSOTROS*/
-
-
-.logosecundario{  
-    display: flex;
-    justify-content: space-between;
-    }
-
-    .logoempresa2{
-        width: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;        
-    }
-    
-    .secundarionosotros{
-        display: flex;
-        justify-content: center;
-    }
-
-    
-/*FIN ESTILOS PAGINA NOSOTROS*/
-
-
-
-
+.nav-item {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
